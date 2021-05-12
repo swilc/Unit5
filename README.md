@@ -28,6 +28,19 @@ iframe {
 
 But CodeHS says there is an error from `Checking the iframe has the correct dimensions`. It works, but it won't grade properly.
 
+
+5.3.8
+-
+Error: `The iframe should be 600px tall and 100% wide`
+
+but in _style.css_
+```
+iframe{
+    width:100%;
+    height:600px;
+}
+```
+
 5.4.4
 -
 Now I have an issue with the class `quote`, where CodeHS gives me an error in ` Checking class quote has the right font family`, `Checking class quote has the right size`, `and Checking class quote is italicized`. 
@@ -69,14 +82,22 @@ Compare it against _style.css_:
 }
 ```
 
-5.3.8
+5.4.6
 -
-Error: `The iframe should be 600px tall and 100% wide`
+I get the errors:  `Checking class 'header' has correct styles`, `Checking class "content" has correct styles`, and `Checking class "footer" has correct styles `.
 
-but in _style.css_
+Here is that section in _style.css_
 ```
-iframe{
-    width:100%;
-    height:600px;
+.header{
+    border-style: solid black 3px;
+    background-color:snow;
+}
+.content{
+    background-color:snow;
+    height:80%;
+    width:70%;
+}
+.footer{
+    background-color:snow;
 }
 ```
