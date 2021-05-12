@@ -48,7 +48,7 @@ against the instructions:
 -
 There are three errors: `Class red should have the background color red`, `Class header should have the background color LightSkyBlue`, and `Checking class "rectangle" has the right dimensions`.
 
-Compare it against _style.css-:
+Compare it against _style.css_:
 
 ```
 .red{
