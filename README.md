@@ -68,3 +68,15 @@ Compare it against _style.css_:
     background-color:LightSkyBlue;
 }
 ```
+
+5.3.8
+-
+Error: `The iframe should be 600px tall and 100% wide`
+
+but in _style.css_
+```
+iframe{
+    width:100%;
+    height:600px;
+}
+```
