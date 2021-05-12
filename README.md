@@ -43,3 +43,28 @@ Check _style.css_
 against the instructions:
 
 `Then create a CSS rule inside of style.css for quote to make the font Arial, 20px big, and italicized.`
+
+5.4.5
+-
+There are three errors: `Class red should have the background color red`, `Class header should have the background color LightSkyBlue`, and `Checking class "rectangle" has the right dimensions`.
+
+Compare it against _style.css-:
+
+```
+.red{
+    background-color:red;
+}
+.white{
+    background-color:white;
+}
+.blue{
+    background-color:blue;
+}
+.rectangle{
+    width:800px;
+    height:150px;
+}
+.header{
+    background-color:LightSkyBlue;
+}
+```
