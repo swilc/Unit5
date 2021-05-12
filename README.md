@@ -41,4 +41,5 @@ Check _style.css_
 }
 ```
 against the instructions:
+
 `Then create a CSS rule inside of style.css for quote to make the font Arial, 20px big, and italicized.`
