@@ -101,3 +101,18 @@ Here is that section in _style.css_
     background-color:snow;
 }
 ```
+
+5.5.4
+-
+It says that `Class vocab should have the font color green` and `Class vocab should be "bolder"`.
+
+It is! 
+
+Check `style.css`:
+
+```
+.vocab{
+    font-weight: bold;
+    color: green;
+}
+```
