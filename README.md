@@ -108,11 +108,29 @@ It says that `Class vocab should have the font color green` and `Class vocab sho
 
 It is! 
 
-Check `style.css`:
+Check _style.css_:
 
 ```
 .vocab{
     font-weight: bold;
     color: green;
+}
+```
+
+5.5.5
+-
+It says that
+```
+The span should be DarkCyan
+The span should be 40 px big
+The span should have the font Fantasy 
+```
+
+and in _style.css_
+```
+span {
+    color: DarkCyan;
+    font-size: 40px;
+    font-family:fantasy;
 }
 ```
