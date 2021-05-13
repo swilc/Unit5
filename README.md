@@ -134,3 +134,17 @@ span {
     font-family:fantasy;
 }
 ```
+
+5.5.6
+-
+It says that
+` Class job-title should be bold`, and that `
+Class job-title should be Maroon `
+
+but in _style.css_,
+```
+.job-title{
+    font-weight:bold;
+    color:maroon;
+}
+```
